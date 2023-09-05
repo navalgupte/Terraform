@@ -1,0 +1,9 @@
+# Terraform Excludes
+*.tfstate
+*.tfstate.backup
+.terraform
+*.terraform.lock.hcl
+
+# System Files
+.DS_Store
+

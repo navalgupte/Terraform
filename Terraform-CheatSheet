@@ -1,0 +1,23 @@
+# Initizalize Backend
+$ cd /path/main.tf
+$ terraform init
+
+# Setting Up Environment Variables - AWS
+$ export AWS_ACCESS_KEY_ID=<access_key_id>
+$ export AWS_SECRECT_ACCESS_KEY=<secrt_access_key>
+
+# Instantiate Cloud Resources
+$ terraform plan
+$ terraform plan -out iam.tfplan
+
+$ terraform apply
+$ terraform apply -refresh=false
+$ terraform apply "main.tfplan"
+
+# Update Specific AWS Resource
+$ terraform apply -target="aws_iam_user.tf_iam_user_1"
+
+# Delete Terraform Resources
+$ terraform destroy
+
+
