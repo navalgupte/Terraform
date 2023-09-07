@@ -20,4 +20,10 @@ $ terraform apply -target="aws_iam_user.tf_iam_user_1"
 # Delete Terraform Resources
 $ terraform destroy
 
+# To Check Terraform Script
+$ terraform validate
+
+# To See Current Infrastructure State
+$ terraform show
+
 
