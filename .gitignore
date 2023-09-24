@@ -7,3 +7,5 @@
 # System Files
 .DS_Store
 
+# In-Progress
+terraform-ec2-instances
